@@ -1,0 +1,23 @@
+Alex Zaharia
+CSC453
+Project 1
+
+Compiling this program:
+
+    make
+
+Running tests:
+
+    ./test
+
+Running scheduler with executable(s):
+
+    ./schedule <quantum> <proc> <args...> : <proc> <args...> : ...
+
+Example of Running scheduler with executable(s):
+
+    ./schedule 10000 ./two 1 : ./two 2 : ./two 3
+
+
+NOTE:
+- ./test uses the commands lines in the 'commands' file to test each process and the output that comes from executing that process

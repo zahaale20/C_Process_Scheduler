@@ -1,0 +1,12 @@
+./schedule 10000 ./two 1 : ./two 2 : ./two 3
+./schedule 500 ./two 1 : ./two 2 : ./two 3
+./schedule 10000 ./two 1
+./schedule 10000 ./two 1 : ./two 2
+./schedule 0 ./two 1
+./schedule 100000 ./two 1 : ./two 2
+./schedule 10000 ./two 0
+./schedule 10000 ./two 1 : ./two 2 : ./two 3 : ./two 4 : ./two 5 : ./two 6 : ./two 7 : ./two 8 : ./two 9 : ./two 10
+./schedule 500 ./two 1 : ./two 2 : ./two 3 : ./two 4 : ./two 5 : ./two 6 : ./two 7 : ./two 8 : ./two 9 : ./two 10
+./schedule 20000 ./two 1 : ./two 2 : ./two 3
+./schedule 1000 ./invalid 2 : ./two 1
+./schedule 1000 ./invalid : ./two 1
